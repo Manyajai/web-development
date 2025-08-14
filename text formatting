@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+         This is my text formatting page 
+        </title>
+        <body>
+            <h2> this is heading 2</h2>
+            <h3> this is heading 3</h3>
+            <p> This is a paragraph of text </p>
+            <b> This is a bold text </b>
+            <i> this is italic text</i>
+            <strong> This is a strong text </strong>
+            <em> this is an emphasised text </em>
+        </body>
+    </head>
+</html>
