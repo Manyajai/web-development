@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            This is lists
+        </title>
+        <body>
+            <ol>
+                Favourite movies 
+                <li> kuch kuch hota hai </li>
+                <li> kabhi khushi kabhi gam</li>
+                <li> yjhd</li>
+            </ol>
+            <ul>
+                Favourite hobbies 
+                <li> singing </li>
+                <li> dancing </li>
+                <li> painting </li>
+            </ul>
+            <ul>
+  <li>Programming Languages
+    <ul>
+      <li>Python</li>
+      <li>JavaScript</li>
+      <li>Java</li>
+    </ul>
+  </li>
+  <li>Frameworks
+    <ul>
+      <li>Django</li>
+      <li>React</li>
+    </ul>
+  </li>
+</ul>
+        </body>
+    </head>
+</html>
