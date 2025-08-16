@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title> image </title>
+<body>
+    <img src="dog.png"
+   width="200"
+   height="100"
+   alt="This is a smple image">
+</body>
+    </head>
+</html>
