@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Basic CSS</title>
+        <body>
+            <style>
+                body{
+                    background-color: gray;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+                h1{
+                  color: red;
+                  font-size: 36px;
+                }
+            </style>
+            <h1>Introduction to CSS</h1>
+        </body>
+    </head>
+</html>
