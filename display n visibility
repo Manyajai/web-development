@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+
+    .block { display: block; background: lightblue; }
+    .inline { display: inline; background: lightgreen; }
+    .inline-block { display: inline-block; background: lightcoral; }
+
+
+    .hidden { visibility: hidden; }
+    .none { display: none; }
+
+    .box {
+      width: 150px;
+      height: 60px;
+      border: 1px solid black;
+      margin: 10px;
+    }
+    .visible { overflow: visible; }
+    .hidden-over { overflow: hidden; }
+    .scroll { overflow: scroll; }
+    .auto { overflow: auto; }
+  </style>
+</head>
+<body>
+
+  <h3>Buttons</h3>
+  <button class="block">Block</button>
+  <button class="inline">Inline</button>
+  <button class="inline-block">Inline-Block</button>
+
+  <h3>Paragraphs</h3>
+  <p>This paragraph is visible.</p>
+  <p class="hidden">This is hidden (takes space).</p>
+  <p class="none">This is display:none (removed).</p>
+  <p>This is after hidden and none.</p>
+
+  <h3>Overflow</h3>
+  <div class="box visible">
+    Visible overflow: Lorem ipsum dolor sit amet...
+  </div>
+
+  <div class="box hidden-over">
+    Hidden overflow: Lorem ipsum dolor sit amet...
+  </div>
+
+  <div class="box scroll">
+    Scroll overflow: Lorem ipsum dolor sit amet...
+  </div>
+
+  <div class="box auto">
+    Auto overflow: Lorem ipsum dolor sit amet...
+  </div>
+
+</body>
+</html>
