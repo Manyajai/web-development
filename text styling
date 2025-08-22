@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typography Example</title>
+  <style>
+    h1 {
+      font-family: "Arial", sans-serif;
+      letter-spacing: 2px;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-style: italic;
+      font-weight: normal;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+    p {
+      line-height: 1.8;
+      text-align: justify;
+      font-size: 18px;
+      font-weight: lighter;
+      margin: 15px;
+    }
+
+    a {
+      text-decoration: none;
+      color: blue;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Main Heading with Custom Font and Spacing</h1>
+
+  <h2>Subheading with Italic Font Style</h2>
+
+  <p>
+    This is a sample paragraph to demonstrate <strong>typography in CSS</strong>. 
+    Notice that the text is justified, making both edges aligned neatly. 
+    The <span style="font-weight: normal;">normal weight</span>, 
+    <span style="font-weight: bold;">bold weight</span>, and 
+    <span style="font-weight: lighter;">lighter weight</span> 
+    are shown here for comparison.
+  </p>
+
+  
+
+</body>
+</html>
